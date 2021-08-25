@@ -77,7 +77,7 @@ function App({history}) {
     <>
 
       <div className="App">
-        <select className="form-control" onChange={onchangeValue}>
+        <select className="form-control"  style={{width:"100%"}} onChange={onchangeValue}>
           <option value="default">Default select</option>
 
           <option value="temperament">Temperament</option>
